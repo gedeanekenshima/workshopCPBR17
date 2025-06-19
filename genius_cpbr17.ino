@@ -28,9 +28,9 @@ int passo_atual_na_sequencia = 0;
  * seja, o primeiro led está relacionado ao primeiro botão. A ordem destas
  * sequências também estão relacionadas a ordem dos tons.
  */
-int pinoAudio = 8;
-int pinosLeds[4] = { 13, 12, 11, 10 };
-int pinosBotoes[4] = { 5, 4, 3, 2 };
+const int pinoAudio = 8;
+const int pinosLeds[4] = { 13, 12, 11, 10 };
+const int pinosBotoes[4] = { 5, 4, 3, 2 };
  
 // Indica se um botão foi pressionado durante o loop principal.
 int botao_pressionado = 0;
